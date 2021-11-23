@@ -1,0 +1,39 @@
+body{ 
+    overflow-x:hidden;
+    font-family: 'Lora', serif;
+}
+.signup{
+    background-image: url(bg-img.jpeg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    text-align: center;
+}
+.form-title{
+    font-family: 'Lora';
+}
+.form-head{
+    padding: 1%;
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+.form-text{
+    margin-left: 9%;
+    border-radius: 8px;
+    color: black !important;
+}
+.btn{
+    outline: auto;
+    border-radius: 15px !important;
+}
+.btn:hover{
+    background-color: lightskyblue;
+}
